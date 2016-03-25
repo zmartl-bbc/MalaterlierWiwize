@@ -1,0 +1,44 @@
+.opacity {
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	min-height: 250px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+.inner-nav {
+	background: rgba(0, 0, 0, 0.5);
+	min-height: 50px;
+	padding-top: 5px;
+}
+
+.outer-nav {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.masthead {
+	background: rgba(0, 0, 0, 0.5);
+	margin-left: -450px;
+}
+
+.navbar-inverse {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.nav li a {
+	color: #fff !important;
+}
+
+.navbar-brand {
+	color: #fff !important;
+}
+
+@media ( max-width : 768px) {
+	.opacity {
+		margin-top: 42%;
+	}
+	.navbar-inverse {
+		background: #222;
+	}
+}
