@@ -1,9 +1,10 @@
 .opacity {
 	background: rgba(0, 0, 0, 0.7);
 	width: 100%;
-	min-height: 250px;
+	padding-bottom: 10px;
 	padding-top: 5px;
 	width: 100%;
+	margin-bottom: 2%;
 }
 
 .inner-nav {
@@ -41,4 +42,26 @@
 	.navbar-inverse {
 		background: #222;
 	}
+}
+
+.inner p {
+	color: #fff;
+}
+
+body {
+	text-align: justify;
+}
+
+.content-default {
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+
+.image-default {
+	max-height: 500px;
+}
+
+.alert {
+	text-shadow: none;
+	margin: 10px 0;
 }
